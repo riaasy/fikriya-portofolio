@@ -12,6 +12,7 @@ import Hero from "./sections/Hero";
 import Profile from "./sections/Profile";
 import Featured from "./sections/Featured";
 import Skills from "./sections/Skills";
+import Certificates from "./sections/Certificates";
 import Contact from "./sections/Contact";
 
 export default function App() {
@@ -37,6 +38,7 @@ export default function App() {
         <Profile />
         <Featured />
         <Skills />
+        <Certificates />
         <Contact />
       </main>
       <Footer />

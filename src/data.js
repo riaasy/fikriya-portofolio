@@ -112,6 +112,25 @@ export const skills = [
   },
 ];
 
+export const certificates = [
+  {
+    id: "sistem-basisdata-lanjut",
+    title: "Advanced Database Systems",
+    issuer: "Universitas Gunadarma",
+    issuerDetail: "Prof. Dr. E. S. Margianti, SE, MM — Rector",
+    credentialNo: "874555",
+    date: "25 May – 06 Jun 2026",
+    location: "Jakarta",
+    topics: [
+      "Relational Database Design to Mapping Relational",
+      "Advanced SQL",
+      "Data Integration",
+      "Monitoring Database",
+    ],
+    pdf: "/assets/sertifikat-sistem-basisdata-lanjut.pdf",
+  },
+];
+
 export const marqueeWords = [
   "Computer Vision",
   "Transfer Learning",
@@ -127,5 +146,6 @@ export const sections = [
   { id: "profile", label: "Profile" },
   { id: "project", label: "Project" },
   { id: "skills", label: "Skills" },
+  { id: "certificates", label: "Certificates" },
   { id: "contact", label: "Contact" },
 ];
